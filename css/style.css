@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+#hero{
+    background: url(https://previews.123rf.com/images/dragoscondrea/dragoscondrea1707/dragoscondrea170701425/82233052-different-type-of-cheese-on-wooden-background-gourmet-food-apetizer.jpg) 
+    no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    }
+    .hero-content{
+        background-color: rgb(255, 255, 255, 0.7);
+        padding: 50px;
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+    }
+    .hero-content h1{
+        font-family: 'Pacifico', sans-serif;
+        font-size: 2rem;
+    }
