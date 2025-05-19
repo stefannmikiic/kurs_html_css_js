@@ -51,7 +51,7 @@ h1,h2{
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         border-radius: 50%;
-        border: 2px solid gold;
+        border: 2px solid #FFC067;
         transition: transform 0.8s;
         transform: preserve-3d;
         
@@ -80,7 +80,7 @@ h1,h2{
         display: block;
         width: 115px;
         height: 5px;
-        background-color: gold;
+        background-color: #FFC067;
         
     }
     .sirBox h3{
@@ -109,8 +109,12 @@ h1,h2{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-        max-width: 350px;
+        max-width: 400px;
         margin: 20px auto;
+        border: solid 5px #FFC067;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 10px;
     }
     .stiker{
         position: absolute;
@@ -140,7 +144,7 @@ h1,h2{
         font-weight: bold;
         color: #333;
         margin: 10px auto ;
-        background-color: #c4d320;
+        background-color: #FFC067;
         width: 400px;
         border-radius: 10px;
         padding: 10px;
@@ -153,7 +157,7 @@ h1,h2{
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         
-        border: 2px solid gold;
+        border: 2px solid #FFC067;
         transition: transform 0.8s;
         transform: preserve-3d;
 
@@ -169,3 +173,26 @@ h1,h2{
         color:#333;
     }
     /* KRAJ BEST SELLER SEKCIJE */
+
+    /* POCETAK CSSa za O NAMA SEKCIJU */
+
+    .o-nama{
+        background-color: #FFC067;
+        max-width: 1000px;
+        margin: 50px auto;
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+        border-radius: 30px 0 0 30px;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+    }
+    .o-nama-slika img{
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 30px 0 0 30px;
+    }
+    .o-nama-sadrzaj{
+        padding: 50px;
+    }
+
+    /* KRAJ CSSa za O NAMA SEKCIJU */
