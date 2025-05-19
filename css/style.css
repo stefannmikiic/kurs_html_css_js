@@ -51,7 +51,7 @@ h1,h2{
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         border-radius: 50%;
-        border: 2px solid #FFC067;
+        border: 4px solid #FFC067;
         transition: transform 0.8s;
         transform: preserve-3d;
         
@@ -101,8 +101,6 @@ h1,h2{
         background-color: #836953ce;
         padding: 50px 20px;
         text-align: center;
-        border-radius: 10px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
     }
     .Nutritivne-vrednosti{
         list-style-type: none;
@@ -111,7 +109,7 @@ h1,h2{
         gap: 20px;
         max-width: 400px;
         margin: 20px auto;
-        border: solid 5px #FFC067;
+        border: solid 4px #FFC067;
         padding: 10px;
         font-weight: bold;
         border-radius: 10px;
@@ -121,7 +119,8 @@ h1,h2{
         padding: 10px;
         top: 20px;
         left: 300px;
-        background-color: rgba(235, 53, 53, 0.8);
+         /* background-color: rgba(235, 53, 53, 0.8);  */
+         background: linear-gradient(to right, #FF5733, #FFC067); 
         border-radius: 10px;
         display: flex;
         justify-content: center;
@@ -157,7 +156,7 @@ h1,h2{
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         
-        border: 2px solid #FFC067;
+        border: 4px solid #FFC067;
         transition: transform 0.8s;
         transform: preserve-3d;
 
@@ -193,6 +192,38 @@ h1,h2{
     }
     .o-nama-sadrzaj{
         padding: 50px;
+    }
+
+    .preporuke{
+        background-color: #836953ce;
+        padding: 20px 200px;        
+        margin: 20px auto;
+    }
+    .preporuke h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        margin: 10px auto;
+        color:#333;
+        text-align: center;
+    }
+    .preporuke-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        
+    }
+    .preporuka{
+        background-color: beige;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    .preporuka-footer img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    
+    
     }
 
     /* KRAJ CSSa za O NAMA SEKCIJU */
