@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f4;
+    background-color: beige;
     color: #333;
 }
 h1,h2{
@@ -261,3 +261,63 @@ h1,h2{
     }
 
     /* KRAJ CSSa za O NAMA SEKCIJU */
+
+    /* POCETAK CSSa za ZASTO-BAS-MI SEKCIJU */
+
+    .zasto-bas-mi{
+        background-color: #836953ce;
+        max-width: 1000px;
+        margin: 50px auto;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    }
+    .zasto-mi-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .zasto-mi-item{
+        background-color: beige;
+        display: grid;
+        grid-template-columns: 1fr 8fr;
+        margin: 5px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    }
+    .kolona1{
+        background-color: #333;
+        padding: 20px; 
+        display: flex;
+        text-align: center;
+        align-items: center;
+        border-radius: 10px 0 0 10px;
+        font-size: 30px;
+        color: beige;
+        
+    }
+    .kolona2{
+        padding: 20px;
+        font-size: small;
+    }
+    .zasto-bas-mi h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        margin-bottom: 20px;
+        color:#333;
+        text-align: center;
+    }
+    .zasto-mi-desno img{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 4px 0 10px rgba(0, 0, 0, 0.7);
+        
+    }
+    .zasto-mi-desno{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* KRAJ CSSa za ZASTO-BAS-MI SEKCIJU */
