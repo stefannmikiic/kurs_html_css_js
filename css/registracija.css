@@ -78,3 +78,13 @@ body {
     background-color: #fff;
 }
 
+.registracija-link{
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+.login-link{
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
