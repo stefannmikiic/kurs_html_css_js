@@ -1,0 +1,80 @@
+
+body {
+    background-image: url('../images/cheese-registration.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.registracija-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px auto;
+    max-width: 500px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+.registracija-container h2 {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    
+}
+.input-group {
+   
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   background-color: #fff;
+   margin: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+
+
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+}
+.input-group i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.input-group input:focus {
+    outline: none;
+    border: none;
+}
+
+.submit-dugme button{
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    /* background-color: #fff; */
+    background-image: linear-gradient(to right, #f0f0f0, #868686);
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.submit-dugme button:hover {
+    background-color: #dad9d9;
+    transform: translateY(-2px);
+    background-image: linear-gradient(to left, #f0f0f0, #868686);
+
+}
+
+.input-group select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+}
+

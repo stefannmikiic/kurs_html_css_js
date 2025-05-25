@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/994ab26b02.js" crossorigin="anonymous"></script>
+    <title>Registracija</title>
+    <link rel="stylesheet" href="css/registracija.css">
+</head>
+<body>
+    
+    <section class="registracija-container">
+        <h2>Kreirajte nalog</h2>
+        <div class="form">
+            <form>
+
+                <div class="input-group">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="ime-i-prezime" placeholder="Ime i prezime" required> <br>
+                </div>
+
+                <div class="input-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" name="email" placeholder="Email" required> <br>
+                </div>
+
+                <div class="input-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="lozinka" placeholder="Lozinka" required> <br>
+                </div>
+
+                <div class="input-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="potvrdi-lozinku" placeholder="Potvrdite lozinku" required> <br>
+                </div>
+
+                <div class="input-group">
+                    <i class="fa-solid fa-address-book"></i>
+                    <input type="text" name="adresa" placeholder="Unesite adresu" required> <br>
+                </div>
+
+                <div class="input-group">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="text" name="telefon" placeholder="Unesite broj telefona" required> <br>
+                </div>
+
+                 <div class="input-group">
+                    <i class="fa-solid fa-calendar"></i>
+                    <input type="date" name="datum-rodjenja" placeholder="Datum rođenja" required> <br>
+                </div>
+
+                <div class="input-group">
+                    <i class="fa-solid fa-venus-mars"></i>
+                    <select name="pol" required>
+                        <option value="" disabled selected>Izaberite pol</option>
+                        <option value="muski">Muski</option>
+                        <option value="zenski">Zenski</option>
+                        
+                    </select>
+                </div>
+
+                <div class="submit-dugme">
+                    <button type="submit">Registruj se</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
