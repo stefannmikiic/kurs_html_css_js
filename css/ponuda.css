@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+}
+h2{
+    /* font-family: 'Pacifico', sans-serif;
+    color: #333; */
+    margin-bottom: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        color:#333;
+}
+
+.nasa-ponuda{
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.nasa-ponuda h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sviproizvodi{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    background-color: #fdfdfd;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    justify-content: center;
+
+}
+
+.proizvod{
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    text-align: center;
+}
+.proizvod img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+
+
+.btn{
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    /* background-color: #fff; */
+    background-image: linear-gradient(to right, #f0f0f0, #868686);
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.btn:hover{
+    background-color: #dad9d9;
+    transform: scale(1.05);
+    transition: 0.4s;
+    background-image: linear-gradient(to left, #f0f0f0, #868686);
+}
+i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.staracena{
+    text-decoration: line-through;
+    color: #888;
+}
+.novacena{
+    color: #e74c3c;
+    font-weight: bold;
+    margin-left: 5px;
+}
