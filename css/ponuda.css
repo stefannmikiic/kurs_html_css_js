@@ -96,22 +96,54 @@ i{
 /* MEDIA QUERY ZA MOBILNE UREĐAJE */
 @media (max-width: 768px) {
     .sviproizvodi {
-        max-width: 100%;
-        padding: 10px;
-        flex-direction: column;
-        align-items: center;
+        max-width: 100% !important;
+        padding: 10px !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        margin: 0 auto !important;
     }
 
     .proizvod {
-        width: 90%;
-        margin: 10px 0;
-        padding: 15px;
+        width: 90% !important;
+        margin: 10px 0 !important;
+        padding: 15px !important;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.3) !important;
+    }
+
+    .proizvod img {
+        width: 100% !important;
+        height: auto !important;
+        border-radius: 10px !important;
+        box-shadow: none !important;
     }
 
     .btn {
-        font-size: 18px;
-        padding: 12px 20px;
-        margin: 15px auto;
+        font-size: 18px !important;
+        padding: 12px 20px !important;
+        margin: 15px auto !important;
+        display: block !important;
+        width: 80% !important;
+        box-shadow: 3px 3px 8px rgba(0,0,0,0.3) !important;
+    }
+
+    h2 {
+        font-size: 28px !important;
+        text-align: center !important;
+    }
+
+    i {
+        font-size: 24px !important;
+        margin-right: 5px !important;
+    }
+
+    .staracena {
+        font-size: 14px !important;
+    }
+
+    .novacena {
+        font-size: 16px !important;
+        margin-left: 3px !important;
     }
 }
+
 
