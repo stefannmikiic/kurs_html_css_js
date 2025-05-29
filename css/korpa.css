@@ -92,3 +92,48 @@ input{
     align-items: center;
     justify-content: center;
 }
+
+/* MEDIA QUERY ZA MOBILNE UREĐAJE */
+@media (max-width: 768px) {
+    .korpa {
+        padding: 15px;
+    }
+
+    .korpa h2 {
+        font-size: 22px;
+    }
+
+    .sviproizvodi {
+        width: 95%;
+        padding: 15px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+
+    input {
+        width: 40px;
+        padding: 8px;
+    }
+
+    .slikaukorpi {
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+    }
+
+    .flex {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

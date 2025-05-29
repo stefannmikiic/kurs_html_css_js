@@ -100,3 +100,43 @@ body {
     margin-top: 10px;
     color: black;
 }
+
+/* MEDIA QUERY ZA MOBILNE EKRANE */
+@media (max-width: 768px) {
+    body {
+        background-position: center;
+        background-size: cover;
+    }
+
+    .registracija-container {
+        margin: 50px 20px;
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .registracija-container h2 {
+        font-size: 20px;
+    }
+
+    .input-group {
+        flex-direction: row;
+        padding: 8px;
+    }
+
+    .input-group i {
+        font-size: 18px;
+        margin-right: 8px;
+    }
+
+    .submit-dugme button {
+        width: 100%;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .registracija-link,
+    .login-link {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}

@@ -92,3 +92,36 @@ i{
     font-weight: bold;
     margin-left: 5px;
 }
+
+/* MEDIA QUERY ZA MOBILNE UREĐAJE */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 28px;
+    }
+
+    .sviproizvodi {
+        flex-direction: column;
+        max-width: 95%;
+        padding: 15px;
+    }
+
+    .proizvod {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 15px;
+        width: 100%;
+    }
+
+    .proizvod img {
+        height: auto;
+    }
+
+    i {
+        font-size: 18px;
+        margin-right: 6px;
+    }
+}

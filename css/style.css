@@ -322,3 +322,104 @@ h1,h2{
     }
 
     /* KRAJ CSSa za ZASTO-BAS-MI SEKCIJU */
+
+    /* === Responzivni dizajn za mobilne uređaje === */
+@media (max-width: 768px) {
+  /* HERO sekcija */
+  #hero {
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .hero-content {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  /* VRSTE SIREVA sekcija */
+  .sirevi-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .sirBox img {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* BEST SELLER sekcija */
+  .Nutritivne-vrednosti {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+
+  .cena {
+    width: 90%;
+    font-size: 24px;
+  }
+
+  .stiker {
+    left: 20px;
+    top: 10px;
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+
+  .best-seller-section img {
+    width: 90%;
+  }
+
+  /* O NAMA sekcija */
+  .o-nama {
+    grid-template-columns: 1fr;
+    border-radius: 0;
+  }
+
+  .o-nama-slika img {
+    border-radius: 0;
+  }
+
+  .o-nama-sadrzaj {
+    padding: 20px;
+  }
+
+  /* PREPORUKE sekcija */
+  .preporuke {
+    padding: 20px;
+  }
+
+  .preporuke-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* ZASTO BAS MI sekcija */
+  .zasto-mi-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .zasto-mi-item {
+    grid-template-columns: 1fr;
+  }
+
+  .kolona1 {
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .kolona2 {
+    padding: 10px;
+  }
+
+  .zasto-mi-desno img {
+    width: 90%;
+  }
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+/* === Kraj responzivnog dizajna === */
