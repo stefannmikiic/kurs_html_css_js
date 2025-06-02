@@ -96,6 +96,8 @@ i{
 /* MEDIA QUERY ZA MOBILNE UREĐAJE */
 @media (max-width: 768px) {
     .sviproizvodi {
+        display: flex !important;
+        flex-wrap: wrap !important;
         max-width: 100% !important;
         padding: 10px !important;
         flex-direction: column !important;
@@ -145,5 +147,6 @@ i{
         margin-left: 3px !important;
     }
 }
+
 
 
