@@ -18,6 +18,9 @@ nav ul{
     font-weight: bold;
 }
 
+
+
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -37,4 +40,5 @@ nav ul{
         display: block;
         width: 100%;
     }
+
 }
