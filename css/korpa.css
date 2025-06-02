@@ -94,7 +94,7 @@ input{
 }
 
 /* MEDIA QUERY ZA MOBILNE UREĐAJE */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .korpa {
         padding: 0.5rem !important;
         margin: 0 auto !important;
@@ -163,6 +163,42 @@ input{
         flex-direction: column !important;
         align-items: center !important;
     } */
+
+@media screen and (max-width: 768px) {
+    .sviproizvodi {
+        width: 95%;
+        padding: 10px;
+    }
+
+    table, th, td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .slikaukorpi {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    input {
+        width: 40px;
+        padding: 8px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
 }
+
 
 

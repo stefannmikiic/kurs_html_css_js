@@ -94,7 +94,8 @@ i{
 }
 
 /* MEDIA QUERY ZA MOBILNE UREĐAJE */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
+
     .sviproizvodi {
         display: flex !important;
         flex-wrap: wrap !important;
@@ -145,6 +146,31 @@ i{
     .novacena {
         font-size: 16px !important;
         margin-left: 3px !important;
+    }
+} */
+
+
+
+@media screen and (max-width: 768px) {
+    .sviproizvodi {
+        flex-direction: column;
+        max-width: 95%;
+        padding: 10px;
+    }
+
+    .proizvod {
+        width: 100%;
+        margin: 10px 0;
+        padding: 15px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    h2 {
+        font-size: 28px;
     }
 }
 
