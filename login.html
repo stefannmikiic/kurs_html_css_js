@@ -31,19 +31,19 @@
      <section class="registracija-container">
         <h2>Prijavite se</h2>
         <div class="form">
-            <form>
+            <form id="loginForma">
                 <div class="input-group">
                     <i class="fa-solid fa-envelope"></i>
-                    <input type="email" name="email" placeholder="Email" required> <br>
+                    <input type="email" id="email_login" name="email" placeholder="Email" required> <br>
                 </div>
 
                 <div class="input-group">
                     <i class="fa-solid fa-lock"></i>
-                    <input type="password" name="lozinka" placeholder="Lozinka" required> <br>
+                    <input type="password" id="lozinka_login" name="lozinka" placeholder="Lozinka" required> <br>
                 </div>
 
                 <div class="submit-dugme">
-                    <button type="submit">Prijavite se</button>
+                    <button id="loginBTN" type="submit">Prijavite se</button>
                 </div>
 
             </form>
@@ -53,6 +53,6 @@
         </div>
     </section>
 
-
+    <script src="js/login.js"></script>
 </body>
 </html>
