@@ -20,11 +20,18 @@ const proizvodi = [
 
 ]
 
+function dodajUKorpu(index) {
+    const korpa = JSON.parse(localStorage.getItem("korpa")) || [];
+    korpa.push(proizvodi[index]);
+    localStorage.setItem("korpa", JSON.stringify(korpa));
+    alert("Proizvod je dodat u korpu!");
+}
+
 function prikaziProizvode(){
     const elementDiv = document.getElementById("sviproizvodi");
     elementDiv.innerHTML = "";
 
-    proizvodi.forEach(proizvod => {
+    proizvodi.forEach((proizvod,index) => {
         const div = document.createElement("div");
         div.className = "proizvod";
 
@@ -35,7 +42,7 @@ function prikaziProizvode(){
             <p>${proizvod.opis}</p>
             <span class="staracena"><i class="fa-solid fa-tags"></i>Stara cena: ${proizvod.staraCena} RSD</span> <br>
             <span class="novacena">Nova cena: ${proizvod.novaCena} RSD</span>
-            <button class="btn"><i class="fa-solid fa-cart-plus"></i>Dodaj u korpu</button>
+            <button class="btn" data-id=${index}><i class="fa-solid fa-cart-plus"></i>Dodaj u korpu</button>
         `;
         }
         if(proizvod.staraCena === proizvod.novaCena) {
@@ -44,11 +51,20 @@ function prikaziProizvode(){
                 <h3>${proizvod.naziv}</h3>
                 <p>${proizvod.opis}</p>
                 <span class="nova-cena">Cena: ${proizvod.novaCena} RSD</span>
-                <button class="btn"><i class="fa-solid fa-cart-plus"></i>Dodaj u korpu</button>
+                <button class="btn" data-id=${index}><i class="fa-solid fa-cart-plus"></i>Dodaj u korpu</button>
             `;
         }
         elementDiv.appendChild(div);
     })
+
+    const btns = document.querySelectorAll(".btn");
+    btns.forEach(btn => {
+        btn.addEventListener("click", (e) => {
+            const index = e.target.closest(".btn").getAttribute("data-id");
+            dodajUKorpu(index);
+        });
+        
+    });
 }
 
 prikaziProizvode();
