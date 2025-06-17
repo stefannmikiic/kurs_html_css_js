@@ -1,7 +1,7 @@
 const proizvodi = [
 
     {
-        id: 1,
+        id: 10,
         slika:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Parmigiano_reggiano_piece.jpg/640px-Parmigiano_reggiano_piece.jpg",
         naziv: "Parmezan",
         opis: "Opis proizvoda",
@@ -9,7 +9,7 @@ const proizvodi = [
         novaCena: 900
     },
     {
-        id: 2,
+        id: 20,
         slika:"https://thecheeseatlas.com/wp-content/uploads/2020/05/Mauri-Gorgonzola-Piccante-1024x819.jpeg",
         naziv: "Gorgonzola",
         opis: "Opis proizvoda",
